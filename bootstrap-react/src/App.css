@@ -1,0 +1,20 @@
+/* Estilo para las secciones */
+.section-content {
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente para resaltar el texto */
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Opcional: Asegura que las secciones se expandan a toda la altura disponible */
+.row {
+  height: 100%;
+}
+
+h2 {
+  font-size: 2rem;
+}
