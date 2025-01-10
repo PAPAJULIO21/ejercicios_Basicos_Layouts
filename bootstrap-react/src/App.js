@@ -5,9 +5,12 @@ import fotoMujer from './imagenes/mujer.jpg';
 import fotoHombre from './imagenes/hombre.jpg';
 import fotoNiño from './imagenes/niño.jpg';
 import Ejercicio1 from './componentes/Ejercicio1.js';
+import Ejercicio2 from './componentes/Ejercicio2.js';
 
 function App() {
   return (
+    /*
+
     <Container fluid className="p-0">
       <Row className="h-100 text-center">
         <Ejercicio1 
@@ -25,7 +28,10 @@ function App() {
           title="Niños" 
         />
       </Row>
-    </Container>
+    </Container>*/
+    <div>
+      <Ejercicio2 />
+    </div>
   );
 }
 
